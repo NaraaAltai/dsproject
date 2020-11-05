@@ -1,0 +1,25 @@
+Package: dsproject
+Title: DSProject
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Naraa",
+           family = "Altai",
+           role = c("aut", "cre"),
+           email = "naltai@wesleyan.edu")
+Description: This package lets the user create a package, 
+    import dataset and install specified packages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    vroom,
+    haven, 
+    readxl, 
+    tools,
+    usethis
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
